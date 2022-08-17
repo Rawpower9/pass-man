@@ -19,7 +19,7 @@ Make sure that you have python3 and pip already installed as this software works
 Open a terminal window. Navigate to the unzipped folder
 
 ```bash
-cd ~/Downloads/pass-man
+cd ~/Downloads/pass-man-main
 ```
 
 You can check to see if you have python3 already installed by running 
@@ -39,17 +39,17 @@ pip install -r requirements.txt
 ```
 # 3. Setup
 
-move the "pass-man" folder to ~/bin
+move the "pass-man-main" folder to ~/bin
 
 ```bash
-mv ~/Downloads/pass-man ~/bin/pass-man
+mv ~/Downloads/pass-man-main ~/bin/pass-man-main
 
 ```
 
-Navigate to the pass-man folder and run the setup instructions. Enter your password. Remeber your password as this software does not store your password, and you will be unable to change it later. The setup.py folder should have created two new files (pass.txt and test.txt) in the same directory. After ensuring that these files are there, remove the setup.py file.
+Navigate to the pass-man-main folder and run the setup instructions. Enter your password. Remeber your password as this software does not store your password, and you will be unable to change it later. The setup.py folder should have created two new files (pass.txt and test.txt) in the same directory. After ensuring that these files are there, remove the setup.py file.
 
 ```bash
-cd ~/bin/pass-man
+cd ~/bin/pass-man-main
 python3 setup.py
 ls -l
 rm setup.py
@@ -57,8 +57,8 @@ rm setup.py
 
 
 
-Run this command in order to access the command globally (From any directory). This makes it so that you don't have to navigate to the pass-man directory every time you want to run the password manager
+Run this command in order to access the command globally (From any directory). This makes it so that you don't have to navigate to the pass-man-main directory every time you want to run the password manager
 
 ```bash
-export PATH=$PATH":$HOME/bin/pass-man"
+export PATH=$PATH":$HOME/bin/pass-man-main"
 ```
