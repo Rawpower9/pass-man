@@ -2,7 +2,7 @@
 My very own CLI password manager
 
 
-#1. Clone the repository
+# 1. Clone the repository
 
 Click on the Green "Code" button at the top right of your screen. 
 <img width="365" alt="Screen Shot 2022-08-17 at 2 44 08 PM" src="https://user-images.githubusercontent.com/65196684/185248768-f9d3949c-a334-4e88-b30a-a7cf953334b3.png">
@@ -12,7 +12,7 @@ Then Click on the "Download ZIP" button.
 
 Unzip the file, and you are ready to move on
 
-#2. Installation
+# 2. Installation
 
 Make sure that you have python3 and pip already installed as this software works on python (pip is for installing dependencies). 
 
@@ -37,7 +37,7 @@ Run the following command to install the dependencies. The installation may take
 ```bash
 pip install -r requirements.txt
 ```
-#3. Setup
+# 3. Setup
 
 move the "pass-man" folder to ~/bin
 
